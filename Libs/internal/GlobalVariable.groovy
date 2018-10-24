@@ -33,10 +33,15 @@ public class GlobalVariable {
      */
     public static Object G_ShortTimeOut
      
+    /**
+     * <p></p>
+     */
+    public static Object G_packageName
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['G_Timeout' : 10, 'G_NotificationMessage' : 'Your message has been sent. View message', 'G_AndroidApp' : 'androidapp/APIDemos.apk', 'G_ShortTimeOut' : 5])
+        allVariables.put('default', ['G_Timeout' : 10, 'G_NotificationMessage' : 'Your message has been sent. View message', 'G_AndroidApp' : 'androidapp/APIDemos.apk', 'G_ShortTimeOut' : 5, 'G_packageName' : 'com.kazurayam'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -45,6 +50,7 @@ public class GlobalVariable {
         G_NotificationMessage = selectedVariables['G_NotificationMessage']
         G_AndroidApp = selectedVariables['G_AndroidApp']
         G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
+        G_packageName = selectedVariables['G_packageName']
         
     }
 }
