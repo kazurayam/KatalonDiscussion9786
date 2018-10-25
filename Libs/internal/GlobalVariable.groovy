@@ -41,7 +41,7 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['G_Timeout' : 10, 'G_NotificationMessage' : 'Your message has been sent. View message', 'G_AndroidApp' : 'androidapp/APIDemos.apk', 'G_ShortTimeOut' : 5, 'G_packageName' : 'com.kazurayam'])
+        allVariables.put('default', ['G_Timeout' : 10, 'G_NotificationMessage' : 'Your message has been sent. View message', 'G_AndroidApp' : 'androidapp/APIDemos.apk', 'G_ShortTimeOut' : 5, 'G_packageName' : 'com.packagename'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         

@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.kazurayam'</initValue>
+      <initValue>'com.packagename'</initValue>
       <name>G_packageName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
